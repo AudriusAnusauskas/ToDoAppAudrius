@@ -1,0 +1,138 @@
+.todo {
+  margin: 50px auto;
+  font-family: sans-serif;
+  max-width: 800px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 1px 2px 30px #adb5bd;
+}
+header {
+  color: #343a40;
+  font-size: 30px;
+  border-bottom: 3px solid #f59f00;
+  margin-bottom: 25px;
+}
+.header {
+  margin: 0;
+}
+.ipt {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: 14px;
+  color: #495057;
+}
+
+input {
+  padding: 10px;
+  font-size: 12px;
+  outline: none;
+  background-color: #f8f9fa;
+  border: none;
+  border-bottom: 1px solid #343a40;
+}
+
+button {
+  background-color: #343a40;
+  color: #f59f00;
+  padding: 5px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #495057;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #495057;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 5px;
+  accent-color: #f59f00;
+}
+
+.list-main {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.list-main h4 {
+  padding: 10px;
+  width: 400px;
+  color: #343a40;
+  font-size: 20px;
+}
+
+.list-main ul {
+  min-height: auto;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.list-main li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #343a40;
+  cursor: pointer;
+  border-bottom: 1px solid #343a40;
+}
+
+.list-main li :nth-child(1) {
+  width: 150px;
+  padding-right: 13px;
+}
+
+.list-main li :nth-child(2) {
+  width: 230px;
+}
+.list-main li :nth-child(3) {
+  min-width: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  ul {
+    padding-left: 0;
+  }
+  header {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 11px;
+  }
+
+  .list-main li {
+    font-size: 12px;
+  }
+  .list-main h4 {
+    font-size: 14px;
+  }
+  input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+  }
+  button {
+    height: 25px;
+    width: 20px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    height: 30px;
+  }
+}

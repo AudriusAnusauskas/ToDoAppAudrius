@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="todo">
+      <header>
+        <h1 class="header">To-do list</h1>
+      </header>
+      <form class="ipt" id="add-todo-form">
+        <label for="task">Task description:</label>
+        <input
+          type="text"
+          id="task"
+          placeholder="Enter task"
+          required
+          maxlength="160"
+        />
+        <br />
+        <label for="deadline">Deadline:</label>
+        <input type="datetime-local" name="deadline" id="deadline" />
+        <br />
+        <button type="submit">Add</button>
+      </form>
+
+      <div class="list-main">
+        <h4>Things I need to do:</h4>
+        <ul id="todo-list" class="list"></ul>
+      </div>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
