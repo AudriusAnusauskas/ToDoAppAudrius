@@ -31,6 +31,7 @@ export function updateTodoListUI() {
 
     if (todo.isDone) {
       descriptionElement.style.textDecoration = "line-through";
+      timeLeftElement.textContent = "";
       completedTodos.unshift(newTodo);
       completedTodos.sort(sortByTimestamp);
     } else {
