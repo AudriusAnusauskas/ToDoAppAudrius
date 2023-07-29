@@ -28,7 +28,7 @@ Please hit the `refresh` button on your browser for the sample tasks to be loade
 The responsiveness of the app is atchieved with `css` using `media queries`. Therefore the app could be used on various devices - Desktop, Tablet, Phone.
 
 ### Demo
-[https://audriusanusauskas.github.io/ToDoAppAudrius](https://audriusanusauskas.github.io/ToDoAppAudrius)
+[ToDoAppAudrius](https://audriusanusauskas.github.io/ToDoAppAudrius)
 
 
 
