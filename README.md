@@ -13,7 +13,6 @@ When the task is completed, the user checks the checkbox, the task description i
 More recently completed tasks are upper on the list compared to earlier completed.
 The tasks are being saved in browser's sessionStorage. <br>
 The list is prefilled with two sample tasks. <br>
-When the app first loads, please hit the refresh button to load the prefilled tasks. <br>
 
 ## Installation
 The app does not need any installation. Simply clone this repo to the folder on  your local machine.
@@ -22,7 +21,7 @@ Make sure all the files are in the same folder.
 ## Running the app
 Open VSCode, navigate to the app folder and open `index.html` file with `Live Server`.  <br>
 The browser tab is opened and the app is loaded. <br>
-Please hit the `refresh` button on your browser for the sample tasks to be loaded from your browser's `sessionStorage`.
+
 
 ## The responsive design
 The responsiveness of the app is atchieved with `css` using `media queries`. Therefore the app could be used on various devices - Desktop, Tablet, Phone.
