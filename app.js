@@ -10,10 +10,10 @@ import {
   savePrewrittenTasksToSessionStorage,
 } from "./todo.js";
 
+savePrewrittenTasksToSessionStorage(prewrittenTasks);
 loadPrewrittenTasksFromSessionStorage();
 loadTodoListFromSessionStorage();
 updateTodoListUI();
-savePrewrittenTasksToSessionStorage(prewrittenTasks);
 
 document
   .getElementById("add-todo-form")
