@@ -17,7 +17,7 @@ export function updateTodoListUI() {
     const timeLeftElement = document.createElement("span");
     timeLeftElement.textContent = ` ${
       !todo.daysLeft && !todo.hoursLeft && !todo.minutesLeft
-        ? "You have all the time to complete that!"
+        ? "You have all the time in the world to complete that!"
         : `in ${todo.daysLeft} days, ${todo.hoursLeft} hours, ${todo.minutesLeft} minutes`
     }`;
 
