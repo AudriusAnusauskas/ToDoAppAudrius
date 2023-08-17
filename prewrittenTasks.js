@@ -7,4 +7,8 @@ export const prewrittenTasks = [
     description: "Hack Pentagon",
     deadline: "2023-11-15 16:30",
   },
+  {
+    description: "Go to Disnayland",
+    deadline: "2023-12-25 16:30",
+  },
 ];
