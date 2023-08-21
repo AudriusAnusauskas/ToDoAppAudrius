@@ -16,7 +16,7 @@ The list is prefilled with two sample tasks. <br>
 
 ## Installation
 The app does not need any installation. Simply clone this repo to the folder on  your local machine.
-Make sure all the files are in the same folder.
+Just make sure all the files are in the same folder.
 
 ## Running the app
 Open VSCode, navigate to the app folder and open `index.html` file with `Live Server`.  <br>
