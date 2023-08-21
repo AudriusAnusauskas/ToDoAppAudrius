@@ -15,14 +15,14 @@ export function calculateTimeLeft(deadlineDateTime) {
 }
 
 export function compareByTimeLeft(item1, item2) {
-  const isItem1Null = !item1.deadline;
-  const isItem2Null = !item2.deadline;
+  const isItem1Empty = !item1.deadline;
+  const isItem2Empty = !item2.deadline;
 
-  if (isItem1Null && isItem2Null) {
+  if (isItem1Empty && isItem2Empty) {
     return 0;
-  } else if (isItem1Null) {
+  } else if (isItem1Empty) {
     return 1;
-  } else if (isItem2Null) {
+  } else if (isItem2Empty) {
     return -1;
   }
   const timeLeftItem1 = calculateTimeLeft(item1.deadline);
